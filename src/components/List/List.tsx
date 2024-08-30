@@ -42,11 +42,11 @@ export default function List() {
         <Accordion.Control>
           <AccordionLabel {...item} />
         </Accordion.Control>
-        {/* <Accordion.Panel>
+        <Accordion.Panel>
           <Text size="sm" className={classes.listContent}>
             {item.content}
           </Text>
-        </Accordion.Panel> */}
+        </Accordion.Panel>
       </Accordion.Item>
     ));
 
