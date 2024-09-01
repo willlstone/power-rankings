@@ -5,6 +5,8 @@ import News from '../components/News/News';
 import Nav from '../components/Nav/Nav';
 import Hero from '../components/Hero/Hero';
 import Scores from '../components/Scores/Scores';
+import MatchupOfTheWeek from '../components/MatchupOfTheWeek/MatchupOfTheWeek';
+import PlayerSpotlight from '../components/PlayerSpotlight/PlayerSpotlight';
 // import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeToggle';
 
 export function HomePage() {
@@ -14,6 +16,9 @@ export function HomePage() {
       <Nav />
       <Scores />
       <News />
+      <PlayerSpotlight />
+      <MatchupOfTheWeek />
+
       <Welcome />
       <List />
       <Standings />
